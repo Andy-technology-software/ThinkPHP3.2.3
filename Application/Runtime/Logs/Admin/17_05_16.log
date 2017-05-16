@@ -1,0 +1,45 @@
+[ 2017-05-16T14:42:26+08:00 ] 127.0.0.1 /Index.php/Admin/Test/test1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000458s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined variable: var /Users/lingnet/Desktop/ThinkPHP3.2.3/Application/Runtime/Cache/Admin/a116c4cae6dc3c086c943fe8f5bdd110.php 第 7 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054884s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.054982s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011007s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011102s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/lingnet/Desktop/ThinkPHP3.2.3/Application/Admin/Controller/TestController.class.php:17) /Users/lingnet/Desktop/ThinkPHP3.2.3/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/lingnet/Desktop/ThinkPHP3.2.3/Application/Admin/Controller/TestController.class.php:17) /Users/lingnet/Desktop/ThinkPHP3.2.3/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/lingnet/Desktop/ThinkPHP3.2.3/Application/Admin/Controller/TestController.class.php:17) /Users/lingnet/Desktop/ThinkPHP3.2.3/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2017-05-16T14:42:36+08:00 ] 127.0.0.1 /Index.php/Admin/Test/test10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000601s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [8] Undefined index: id /Users/lingnet/Desktop/ThinkPHP3.2.3/Application/Runtime/Cache/Admin/6bcb3cf03679a9854d4bf0f90693d4db.php 第 8 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023875s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000140s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000644s ]
+

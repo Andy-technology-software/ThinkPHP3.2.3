@@ -1,0 +1,11 @@
+[ 2017-05-16T14:41:54+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000607s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012941s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013017s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004614s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004720s ]
+
