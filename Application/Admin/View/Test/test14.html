@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>循环遍历2-9</title>
+</head>
+<body>
+一维数组：<br>
+<volist name = 'array1' id = 'vol'>
+{$vol} -- 
+</volist>
+
+<hr>
+
+<foreach name = 'array1' item = 'for'>
+{$for} --
+</foreach>
+
+<hr>
+二维数组：<br>
+<volist name = 'array2' id = 'vol'>
+	<volist name = 'vol' id = 'v'>
+		{$v} ------
+	</volist>
+	<br>
+</volist>
+<hr>
+<foreach name = 'array2' item = 'for'>
+	<foreach name = 'for' item = 'f'>
+		{$f} ---
+	</foreach>
+	<br>
+</foreach>
+<hr>
+
+<volist name = 'array2' id = 'vol'>
+	{$vol[0]} -- {$vol[1]} -- {$vol[2]} <br>
+</volist>
+<hr>
+</body>
+</html>

@@ -76,7 +76,113 @@ class TestController extends Controller {
 	public function test10() {
 		$this -> display();
 	}
+
+	// 时间戳  视图中使用函数
+	public function test11() {
+		// 定义时间戳
+		$time = time();
+
+		$temStr = 'adaddadadadfasf';	
+		// 传递给模板
+		$this -> assign('time',$time);
+		$this -> assign('temStr',$temStr);
+		// 视图展示
+		$this -> display();
+	}
+
+	// 默认值
+	public function test12() {
+		// 签名
+		$sign = '';
+		$this -> assign('sign',$sign);
+		$this -> display();
+	}
+
+	// 运算符
+	public function test13() {
+		$a = 100;
+		$b = 10;
+		$this -> assign('a',$a);
+		$this -> assign('b',$b);
+		$this -> display();
+	}
+
+	// 文件包含
+	public function head() {
+		$this -> display();
+	}
+
+	public function body() {
+		$this -> display();
+	}
+
+	public function tail() {
+		$this -> display();
+	}
+
+	// 循环遍历
+	public function test14() {
+		// 一维数组
+		$array1 = array('提莫','剑豪','菲兹');
+
+		// 二维数组
+		$array2 = array(
+				array('提莫','剑豪','菲兹'),
+				array('卡特','剑姬','鳄鱼'),
+				array('人马','滑板鞋','瑞兹')
+			);
+		$this -> assign('array1',$array1);
+		$this -> assign('array2',$array2);
+		$this -> display();
+	}
+
+	// if标签
+	public function test15() {
+		$day = date('N',time());
+		$this -> assign('day',$day);
+		$this -> display();
+	}
+
+	// 取出数据库user
+	public function user() {
+		$model = M('Dept');
+		$data = $model -> select();
+		dump($data);
+	}
+
+	// 测试添加  映射
+	public function add() {
+		$model = M('Dept');
+		$model -> name = '皮卡丘';
+		$model -> pid = '0';
+		$model -> sort = '10';
+		$model -> remark = '闪电发射';
+
+		$result = $model -> add();
+		dump($result);
+	}
+
+	public function where() {
+		$model = M('Dept');
+		$model -> where('name = "皮卡丘"');
+		$data = $model -> select();
+		// dump($data);
+		// echo json_encode($data);
+
+	}
+
+	// app登录接口
+	public function login($name) {
+		$model = M('Dept');
+	    $releaseInfo = $model->where("name = $name")->find();
+	    if($releaseInfo){
+	      returnApiSuccess('',$releaseInfo);
+	    }else{
+	      returnApiError( '什么也没查到(+_+)！');
+	    }
+	}
 }
+
 
 
 
