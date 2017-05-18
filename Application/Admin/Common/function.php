@@ -23,6 +23,7 @@ function returnApiSuccess($msg = null,$data = array()){
     'data' =>$data
   );
   print json_encode($result);
+  // exit(json_encode($result));
 }
   
 /**
@@ -35,7 +36,8 @@ function returnApiError($msg = null){
     'result' => '0',
     'msg' => $msg,
   );
-  print json_encode($result);
+  // print json_encode($result);
+  exit(json_encode($result));
 }
   
 /**
@@ -48,7 +50,8 @@ function returnApiErrorExample(){
     'result' => '0',
     'msg' => '当前系统繁忙，请稍后重试！',
   );
-  print json_encode($result);
+  // print json_encode($result);
+  exit(json_encode($result));
 }
   
 /**

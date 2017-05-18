@@ -1812,3 +1812,7 @@ ERR: 1054:Unknown column 'Array' in 'where clause'
 [ 2017-05-17T16:48:02+08:00 ] 127.0.0.1 /Index.php/Admin/Test/login
 ERR: 参数错误或者未定义:name
 
+[ 2017-05-17T17:11:06+08:00 ] 127.0.0.1 /Index.php/Admin/Test/login?name=%22%E7%9A%AE%E5%8D%A1%E4%B8%98%22
+ERR: 1054:Unknown column '皮卡丘' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( name = 皮卡丘 ) LIMIT 1  
+

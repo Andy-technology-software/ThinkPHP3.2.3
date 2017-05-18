@@ -170,17 +170,6 @@ class TestController extends Controller {
 		// echo json_encode($data);
 
 	}
-
-	// app登录接口
-	public function login($name) {
-		$model = M('Dept');
-	    $releaseInfo = $model->where("name = $name")->find();
-	    if($releaseInfo){
-	      returnApiSuccess('',$releaseInfo);
-	    }else{
-	      returnApiError( '什么也没查到(+_+)！');
-	    }
-	}
 }
 
 

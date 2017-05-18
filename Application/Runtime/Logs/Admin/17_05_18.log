@@ -1,0 +1,426 @@
+[ 2017-05-18T08:55:51+08:00 ] 192.168.2.3 /Index.php/Admin/Test/login
+ERR: 1054:Unknown column '皮卡丘' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( name = 皮卡丘 ) LIMIT 1  
+
+[ 2017-05-18T08:56:50+08:00 ] 192.168.2.3 /Index.php/Admin/Test/login
+ERR: 1054:Unknown column '皮卡丘' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( name = 皮卡丘 ) LIMIT 1  
+
+[ 2017-05-18T08:57:35+08:00 ] 192.168.10.16 /Index.php/Admin/Test/login
+ERR: 参数错误或者未定义:name
+
+[ 2017-05-18T08:57:49+08:00 ] 192.168.10.16 /Index.php/Admin/Test/login?name=
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( name =  ) LIMIT 1  
+
+[ 2017-05-18T08:59:34+08:00 ] 192.168.2.3 /Index.php/Admin/Test/login
+ERR: 1054:Unknown column '皮卡丘' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( name = 皮卡丘 ) LIMIT 1  
+
+[ 2017-05-18T09:00:21+08:00 ] 192.168.2.3 /Index.php/Admin/Test/login
+ERR: 1054:Unknown column '皮卡丘' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( name = 皮卡丘 ) LIMIT 1  
+
+[ 2017-05-18T09:03:14+08:00 ] 192.168.2.3 /Index.php/Admin/Test/login
+ERR: 1054:Unknown column '皮卡丘' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( name = 皮卡丘 ) LIMIT 1  
+
+[ 2017-05-18T09:04:47+08:00 ] 192.168.10.16 /Index.php/Admin/Test/login
+ERR: 1054:Unknown column '皮卡丘' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( name = 皮卡丘 ) LIMIT 1  
+
+[ 2017-05-18T09:22:40+08:00 ] 192.168.2.3 /Index.php/Admin/Test/login
+ERR: 1054:Unknown column '$name' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( name = $name ) LIMIT 1  
+
+[ 2017-05-18T10:10:48+08:00 ] 192.168.10.16 /Index.php/Admin/App/login
+ERR: 无法加载控制器:App
+
+[ 2017-05-18T10:14:50+08:00 ] 192.168.10.16 /Index.php/Admin/App/login
+ERR: 无法加载控制器:App
+
+[ 2017-05-18T10:15:09+08:00 ] 127.0.0.1 /Index.php/Admin/App/login
+ERR: 无法加载控制器:App
+
+[ 2017-05-18T10:15:45+08:00 ] 127.0.0.1 /Index.php/Admin/App/login
+ERR: 1054:Unknown column '$name' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( name = $name ) LIMIT 1  
+
+[ 2017-05-18T10:16:03+08:00 ] 127.0.0.1 /Index.php/Admin/App/login?name=
+ERR: 1054:Unknown column '$name' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( name = $name ) LIMIT 1  
+
+[ 2017-05-18T10:16:09+08:00 ] 127.0.0.1 /Index.php/Admin/App/login?name=%22%22
+ERR: 1054:Unknown column '$name' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( name = $name ) LIMIT 1  
+
+[ 2017-05-18T10:16:26+08:00 ] 127.0.0.1 /Index.php/Admin/App/login?name=%22%E7%9A%AE%E5%8D%A1%E4%B8%98%22
+ERR: 1054:Unknown column '$name' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( name = $name ) LIMIT 1  
+
+[ 2017-05-18T10:16:42+08:00 ] 127.0.0.1 /Index.php/Admin/App/login?name=%22%E7%9A%AE%E5%8D%A1%E4%B8%98%22
+ERR: 1054:Unknown column '$name' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( name = $name ) LIMIT 1  
+
+[ 2017-05-18T10:16:42+08:00 ] 127.0.0.1 /Index.php/Admin/App/login?name=%22%E7%9A%AE%E5%8D%A1%E4%B8%98%22
+ERR: 1054:Unknown column '$name' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( name = $name ) LIMIT 1  
+
+[ 2017-05-18T10:16:43+08:00 ] 127.0.0.1 /Index.php/Admin/App/login?name=%22%E7%9A%AE%E5%8D%A1%E4%B8%98%22
+ERR: 1054:Unknown column '$name' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( name = $name ) LIMIT 1  
+
+[ 2017-05-18T10:16:43+08:00 ] 127.0.0.1 /Index.php/Admin/App/login?name=%22%E7%9A%AE%E5%8D%A1%E4%B8%98%22
+ERR: 1054:Unknown column '$name' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( name = $name ) LIMIT 1  
+
+[ 2017-05-18T10:16:43+08:00 ] 127.0.0.1 /Index.php/Admin/App/login?name=%22%E7%9A%AE%E5%8D%A1%E4%B8%98%22
+ERR: 1054:Unknown column '$name' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( name = $name ) LIMIT 1  
+
+[ 2017-05-18T10:16:43+08:00 ] 127.0.0.1 /Index.php/Admin/App/login?name=%22%E7%9A%AE%E5%8D%A1%E4%B8%98%22
+ERR: 1054:Unknown column '$name' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( name = $name ) LIMIT 1  
+
+[ 2017-05-18T10:17:12+08:00 ] 127.0.0.1 /Index.php/Admin/App/login?name=%22%E7%9A%AE%E5%8D%A1%E4%B8%98%22
+ERR: 非法操作:login
+
+[ 2017-05-18T10:20:51+08:00 ] 127.0.0.1 /Index.php/Admin/App/where
+ERR: 参数错误或者未定义:name
+
+[ 2017-05-18T10:20:52+08:00 ] 127.0.0.1 /Index.php/Admin/App/where
+ERR: 参数错误或者未定义:name
+
+[ 2017-05-18T10:21:00+08:00 ] 127.0.0.1 /Index.php/Admin/App/where?name=
+ERR: 1054:Unknown column '$name' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( name = $name ) 
+
+[ 2017-05-18T10:21:07+08:00 ] 127.0.0.1 /Index.php/Admin/App/where?name=%22%E7%9A%AE%E5%8D%A1%E4%B8%98%22
+ERR: 1054:Unknown column '$name' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( name = $name ) 
+
+[ 2017-05-18T10:21:08+08:00 ] 127.0.0.1 /Index.php/Admin/App/where?name=%22%E7%9A%AE%E5%8D%A1%E4%B8%98%22
+ERR: 1054:Unknown column '$name' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( name = $name ) 
+
+[ 2017-05-18T10:21:08+08:00 ] 127.0.0.1 /Index.php/Admin/App/where?name=%22%E7%9A%AE%E5%8D%A1%E4%B8%98%22
+ERR: 1054:Unknown column '$name' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( name = $name ) 
+
+[ 2017-05-18T10:21:08+08:00 ] 127.0.0.1 /Index.php/Admin/App/where?name=%22%E7%9A%AE%E5%8D%A1%E4%B8%98%22
+ERR: 1054:Unknown column '$name' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( name = $name ) 
+
+[ 2017-05-18T10:21:08+08:00 ] 127.0.0.1 /Index.php/Admin/App/where?name=%22%E7%9A%AE%E5%8D%A1%E4%B8%98%22
+ERR: 1054:Unknown column '$name' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( name = $name ) 
+
+[ 2017-05-18T10:21:09+08:00 ] 127.0.0.1 /Index.php/Admin/App/where?name=%22%E7%9A%AE%E5%8D%A1%E4%B8%98%22
+ERR: 1054:Unknown column '$name' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( name = $name ) 
+
+[ 2017-05-18T10:21:09+08:00 ] 127.0.0.1 /Index.php/Admin/App/where?name=%22%E7%9A%AE%E5%8D%A1%E4%B8%98%22
+ERR: 1054:Unknown column '$name' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( name = $name ) 
+
+[ 2017-05-18T10:21:09+08:00 ] 127.0.0.1 /Index.php/Admin/App/where?name=%22%E7%9A%AE%E5%8D%A1%E4%B8%98%22
+ERR: 1054:Unknown column '$name' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( name = $name ) 
+
+[ 2017-05-18T10:21:15+08:00 ] 127.0.0.1 /Index.php/Admin/App/where?name=%22%E7%9A%AE%E5%8D%A1%E4%B8%98%22
+ERR: 1054:Unknown column '$name' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( name = $name ) 
+
+[ 2017-05-18T10:21:15+08:00 ] 127.0.0.1 /Index.php/Admin/App/where?name=%22%E7%9A%AE%E5%8D%A1%E4%B8%98%22
+ERR: 1054:Unknown column '$name' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( name = $name ) 
+
+[ 2017-05-18T10:21:16+08:00 ] 127.0.0.1 /Index.php/Admin/App/where?name=%22%E7%9A%AE%E5%8D%A1%E4%B8%98%22
+ERR: 1054:Unknown column '$name' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( name = $name ) 
+
+[ 2017-05-18T10:21:16+08:00 ] 127.0.0.1 /Index.php/Admin/App/where?name=%22%E7%9A%AE%E5%8D%A1%E4%B8%98%22
+ERR: 1054:Unknown column '$name' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( name = $name ) 
+
+[ 2017-05-18T10:27:18+08:00 ] 127.0.0.1 /Index.php/Admin/App/where
+ERR: 1054:Unknown column '$name' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( name = $name ) LIMIT 1  
+
+[ 2017-05-18T10:27:33+08:00 ] 127.0.0.1 /Index.php/Admin/App/where?name=%22%E7%9A%AE%E5%8D%A1%E4%B8%98%22
+ERR: 1054:Unknown column '$name' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `sp_dept` WHERE ( name = $name ) LIMIT 1  
+
+[ 2017-05-18T14:15:01+08:00 ] 127.0.0.1 /index.php/Admin/Index
+ERR: 模板不存在:./Application/Admin/View/Index/index.html
+
+[ 2017-05-18T14:17:55+08:00 ] 127.0.0.1 /index.php/Admin/css/base.css
+ERR: 无法加载控制器:Css
+
+[ 2017-05-18T14:17:55+08:00 ] 127.0.0.1 /index.php/Admin/css/jquery.dialog.css
+ERR: 无法加载控制器:Css
+
+[ 2017-05-18T14:17:55+08:00 ] 127.0.0.1 /index.php/Admin/css/index.css
+ERR: 无法加载控制器:Css
+
+[ 2017-05-18T14:17:55+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery.dialog.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:17:55+08:00 ] 127.0.0.1 /index.php/Admin/js/core.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:17:55+08:00 ] 127.0.0.1 /index.php/Admin/js/common.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:17:55+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:17:55+08:00 ] 127.0.0.1 /index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-05-18T14:17:55+08:00 ] 127.0.0.1 /index.php/Admin/js/index.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:17:55+08:00 ] 127.0.0.1 /index.php/Admin/js/common.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:17:55+08:00 ] 127.0.0.1 /index.php/Admin/js/core.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:17:55+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery.dialog.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:17:55+08:00 ] 127.0.0.1 /index.php/Admin/js/index.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:18:30+08:00 ] 127.0.0.1 /index.php/Admin/js/common.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:18:30+08:00 ] 127.0.0.1 /index.php/Admin/js/core.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:18:30+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:18:30+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery.dialog.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:18:30+08:00 ] 127.0.0.1 /index.php/Admin/js/index.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:18:30+08:00 ] 127.0.0.1 /index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-05-18T14:18:30+08:00 ] 127.0.0.1 /index.php/Admin/js/common.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:18:30+08:00 ] 127.0.0.1 /index.php/Admin/js/core.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:18:30+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery.dialog.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:18:30+08:00 ] 127.0.0.1 /index.php/Admin/js/index.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:18:41+08:00 ] 127.0.0.1 /index.php/Admin/js/core.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:18:41+08:00 ] 127.0.0.1 /index.php/Admin/js/common.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:18:41+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:18:41+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery.dialog.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:18:41+08:00 ] 127.0.0.1 /index.php/Admin/js/index.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:18:41+08:00 ] 127.0.0.1 /index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-05-18T14:18:41+08:00 ] 127.0.0.1 /index.php/Admin/js/common.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:18:41+08:00 ] 127.0.0.1 /index.php/Admin/js/core.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:18:42+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery.dialog.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:18:42+08:00 ] 127.0.0.1 /index.php/Admin/js/index.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:18:42+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:18:42+08:00 ] 127.0.0.1 /index.php/Admin/js/common.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:18:42+08:00 ] 127.0.0.1 /index.php/Admin/js/core.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:18:42+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery.dialog.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:18:42+08:00 ] 127.0.0.1 /index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-05-18T14:18:42+08:00 ] 127.0.0.1 /index.php/Admin/js/index.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:18:42+08:00 ] 127.0.0.1 /index.php/Admin/js/common.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:18:42+08:00 ] 127.0.0.1 /index.php/Admin/js/core.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:18:42+08:00 ] 127.0.0.1 /index.php/Admin/js/jquery.dialog.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:18:42+08:00 ] 127.0.0.1 /index.php/Admin/js/index.js
+ERR: 无法加载控制器:Js
+
+[ 2017-05-18T14:19:08+08:00 ] 127.0.0.1 /index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-05-18T14:19:09+08:00 ] 127.0.0.1 /index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-05-18T14:19:09+08:00 ] 127.0.0.1 /index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-05-18T14:19:15+08:00 ] 127.0.0.1 /index.php/Admin/info-reg.html
+ERR: 无法加载控制器:Info-reg
+
+[ 2017-05-18T14:19:20+08:00 ] 127.0.0.1 /index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-05-18T14:19:21+08:00 ] 127.0.0.1 /index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-05-18T14:19:59+08:00 ] 127.0.0.1 /index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-05-18T14:20:00+08:00 ] 127.0.0.1 /index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-05-18T14:20:00+08:00 ] 127.0.0.1 /index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-05-18T14:20:41+08:00 ] 127.0.0.1 /index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-05-18T14:20:48+08:00 ] 127.0.0.1 /index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-05-18T14:20:50+08:00 ] 127.0.0.1 /index.php/Admin/info-reg.html
+ERR: 无法加载控制器:Info-reg
+
+[ 2017-05-18T14:20:50+08:00 ] 127.0.0.1 /index.php/Admin/info-mgt.html
+ERR: 无法加载控制器:Info-mgt
+
+[ 2017-05-18T14:20:51+08:00 ] 127.0.0.1 /index.php/Admin/info-det.html
+ERR: 无法加载控制器:Info-det
+
+[ 2017-05-18T14:23:42+08:00 ] 127.0.0.1 /index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-05-18T14:23:43+08:00 ] 127.0.0.1 /index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-05-18T14:23:43+08:00 ] 127.0.0.1 /index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-05-18T14:27:31+08:00 ] 127.0.0.1 /index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-05-18T14:27:32+08:00 ] 127.0.0.1 /index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-05-18T14:27:35+08:00 ] 127.0.0.1 /index.php/Admin/info-reg.html
+ERR: 无法加载控制器:Info-reg
+
+[ 2017-05-18T14:27:39+08:00 ] 127.0.0.1 /index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-05-18T14:27:40+08:00 ] 127.0.0.1 /index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-05-18T14:27:40+08:00 ] 127.0.0.1 /index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-05-18T14:27:44+08:00 ] 127.0.0.1 /index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-05-18T14:27:44+08:00 ] 127.0.0.1 /index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-05-18T14:27:45+08:00 ] 127.0.0.1 /index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-05-18T14:28:16+08:00 ] 127.0.0.1 /index.php/Admin/%7BU('home')%7D
+ERR: 无法加载控制器:{U('home')}
+
+[ 2017-05-18T14:28:17+08:00 ] 127.0.0.1 /index.php/Admin/%7BU('home')%7D
+ERR: 无法加载控制器:{U('home')}
+
+[ 2017-05-18T14:28:18+08:00 ] 127.0.0.1 /index.php/Admin/%7BU('home')%7D
+ERR: 无法加载控制器:{U('home')}
+
+[ 2017-05-18T14:28:18+08:00 ] 127.0.0.1 /index.php/Admin/%7BU('home')%7D
+ERR: 无法加载控制器:{U('home')}
+
+[ 2017-05-18T14:28:27+08:00 ] 127.0.0.1 /index.php/Admin/%7BU('home')%7D
+ERR: 无法加载控制器:{U('home')}
+
+[ 2017-05-18T14:28:29+08:00 ] 127.0.0.1 /index.php/Admin/%7BU('home')%7D
+ERR: 无法加载控制器:{U('home')}
+
+[ 2017-05-18T14:28:29+08:00 ] 127.0.0.1 /index.php/Admin/%7BU('home')%7D
+ERR: 无法加载控制器:{U('home')}
+
+[ 2017-05-18T14:28:29+08:00 ] 127.0.0.1 /index.php/Admin/%7BU('home')%7D
+ERR: 无法加载控制器:{U('home')}
+
+[ 2017-05-18T14:28:30+08:00 ] 127.0.0.1 /index.php/Admin/%7BU('home')%7D
+ERR: 无法加载控制器:{U('home')}
+
+[ 2017-05-18T14:28:31+08:00 ] 127.0.0.1 /index.php/Admin/%7BU('home')%7D
+ERR: 无法加载控制器:{U('home')}
+
+[ 2017-05-18T14:29:51+08:00 ] 127.0.0.1 /index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-05-18T14:29:53+08:00 ] 127.0.0.1 /index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-05-18T14:34:52+08:00 ] 127.0.0.1 /index.php/Admin/info-reg.html
+ERR: 无法加载控制器:Info-reg
+
+[ 2017-05-18T14:35:08+08:00 ] 127.0.0.1 /index.php/Admin/info-reg.html
+ERR: 无法加载控制器:Info-reg
+
+[ 2017-05-18T14:35:09+08:00 ] 127.0.0.1 /index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-05-18T14:35:10+08:00 ] 127.0.0.1 /index.php/Admin/home.html
+ERR: 无法加载控制器:Home
+
+[ 2017-05-18T14:35:46+08:00 ] 127.0.0.1 /index.php/Admin/info-reg.html
+ERR: 无法加载控制器:Info-reg
+
+[ 2017-05-18T14:35:47+08:00 ] 127.0.0.1 /index.php/Admin/info-mgt.html
+ERR: 无法加载控制器:Info-mgt
+
+[ 2017-05-18T14:37:32+08:00 ] 127.0.0.1 /index.php/Admin/info-reg.html
+ERR: 无法加载控制器:Info-reg
+
+[ 2017-05-18T14:37:32+08:00 ] 127.0.0.1 /index.php/Admin/info-reg.html
+ERR: 无法加载控制器:Info-reg
+
+[ 2017-05-18T14:37:33+08:00 ] 127.0.0.1 /index.php/Admin/info-mgt.html
+ERR: 无法加载控制器:Info-mgt
+
